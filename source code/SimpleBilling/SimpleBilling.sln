@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{04D54A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBilling.Models", "models\SimpleBilling.Models\SimpleBilling.Models.csproj", "{1107EF62-DDB4-430E-91F0-826252466F20}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{A286844B-27A3-4E07-80BE-4A996C8B2C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBilling.Website", "website\SimpleBilling.Website\SimpleBilling.Website.csproj", "{DEC6C8C2-E63B-471A-93D1-3E29C3F4E942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBilling.Website.Tests", "SimpleBilling.Website.Tests\SimpleBilling.Website.Tests.csproj", "{C22AE787-93F4-4D30-B990-DD47E2316A90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +23,21 @@ Global
 		{1107EF62-DDB4-430E-91F0-826252466F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1107EF62-DDB4-430E-91F0-826252466F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1107EF62-DDB4-430E-91F0-826252466F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC6C8C2-E63B-471A-93D1-3E29C3F4E942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC6C8C2-E63B-471A-93D1-3E29C3F4E942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC6C8C2-E63B-471A-93D1-3E29C3F4E942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC6C8C2-E63B-471A-93D1-3E29C3F4E942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22AE787-93F4-4D30-B990-DD47E2316A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22AE787-93F4-4D30-B990-DD47E2316A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22AE787-93F4-4D30-B990-DD47E2316A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22AE787-93F4-4D30-B990-DD47E2316A90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1107EF62-DDB4-430E-91F0-826252466F20} = {04D54AC8-313A-4FBB-9C3F-EE3F1D5D4C02}
+		{DEC6C8C2-E63B-471A-93D1-3E29C3F4E942} = {A286844B-27A3-4E07-80BE-4A996C8B2C35}
+		{C22AE787-93F4-4D30-B990-DD47E2316A90} = {A286844B-27A3-4E07-80BE-4A996C8B2C35}
 	EndGlobalSection
 EndGlobal
